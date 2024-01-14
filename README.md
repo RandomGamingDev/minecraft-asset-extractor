@@ -50,6 +50,6 @@ What [extract-unobfuscated-data.sh](https://github.com/RandomGamingDev/minecraft
 `.jar`'s are technically just `.zip` files, but with a different extension that signifies that it can be executed with the JVM (Java Virtual Machine) which means that you should be able to unzip it.
 
 If you can't unzip it as is, create a copy (so that you can still play that Minecraft version), but with an extension of `.zip` <br/>
-Then, delete all of the `.class` files as well as the `com` & `net` directories, which will leave you with just the extracted data left
+Then, delete all of the `.class` files as well as the `com` & `net` directories from the unzipped result, which will leave you with just the extracted data left
 
 I recommend taking this route if you can't run [extract-unobfuscated-data.sh](https://github.com/RandomGamingDev/minecraft-asset-extractor/blob/main/extract-unobfuscated-data.sh) since this is just what it's doing
